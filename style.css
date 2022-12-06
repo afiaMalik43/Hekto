@@ -1,0 +1,338 @@
+.bg-grey{
+	background-color: #F1F0FF
+}
+.color-blue{
+	color: #151875;
+}
+.nav-custom{
+	background-color: white;
+}
+.search-bg{
+	background-color: #FB2E86;
+	color: white;
+	font-size: 22px;
+}
+.hero{
+	background-color: #F2F0FF;
+}
+.text-pink{
+	color : #FB2E86;
+}
+.btn-hero{
+	background: #FB2E86;
+border-radius: 2px;
+color: white
+}
+.btn-hero:hover{
+border-style: solid;
+border-color:  #FB2E86;
+border-radius: 2px;
+color:  #FB2E86;
+}
+.hero-p{
+	color: #8A8FB9;
+	font-family: 'Lato';
+font-style: normal;
+font-size: 16px;
+line-height: 28px;
+}
+.off-tag{
+width: 109.56px;
+    height: 104px;
+    left: 347px;
+    top: 32px;
+align-content: center;
+opacity: 1;
+background-color: #00C1FE;
+border: 1px solid #00C1FE;
+border-radius: 1px 41px 46px 46px;
+    transform: rotate(45deg);
+}
+.off-tag-text{
+width: 109.56px;
+    height: 104px;
+    right: -30px;
+color: White;
+align-content: center;
+font-family: 'Josefin Sans';
+font-size: 35px;
+line-height: 44px;
+    transform: rotate(-45deg);
+
+}
+h1{
+	font-family: 'Josefin Sans';
+font-size: 12px;
+letter-spacing: 0.015em;
+color: #000000;
+}
+.card{
+	background-color: #F6F7FB;
+
+}
+
+
+
+
+.feature-card{
+	background-color: white;
+}
+.feature-heading{
+	font-family: 'Josefin Sans';
+	font-size: 42px;
+	line-height: 49px;
+	color: #1A0B5B;
+}
+.feature-card-image{
+	width: 270px;
+	height: 296px;
+	background-color: #F6F7FB;
+}
+.feature-card-body{
+	width: 270px;
+	height: auto;
+	background-color: white;
+}
+.feature-card-body .name{
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	/* pink */
+
+	color: #FB2E86;
+
+}
+.feature-card-body .code{
+	font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 16px;
+
+/* Text */
+
+color: #151875;
+
+}
+.feature-card-body .price{
+	font-family: 'Lato';
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #151875;
+
+}
+
+
+
+
+
+
+.latest-products-menu{
+	font-family: 'Lato';
+	text-decoration: none;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+/* Text */
+
+color: #151875;
+}
+.latest-products-menu:hover{
+	color: #FB2E86;
+	text-decoration: underline;
+}
+
+.latest-card-image{
+	width: 360px;
+	height:270px;
+	background-color: #F7F7F7;
+}
+.latest-card-body .name{
+	font-family: 'Josefin Sans';
+font-size: 16px;
+
+/* Text */
+
+color: #151875;
+}
+.n-price{
+	font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 16px;
+
+color: #151875;
+}
+.p-price{
+	font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 14px;
+text-decoration-line: line-through;
+
+color: #FB2448;
+}
+
+
+
+.shopex-image{
+	width: auto;
+	height: auto;
+}
+.shopex-heading{
+	font-family: 'Josefin Sans';
+	color: #151875;
+}
+.shopex-p{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+
+text-align: center;
+
+color: rgba(26, 11, 91, 0.3);
+}
+
+
+.banner-bullet{
+	width: 11px;
+	height: 11px;
+}
+
+.banner-p{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 132%;
+/* or 21px */
+
+letter-spacing: 0.015em;
+
+color: #ACABC3;
+}
+
+
+.price-cut-grey
+{
+	font-family: 'Josefin Sans';
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+text-decoration-line: line-through;
+
+color: rgba(21, 24, 117, 0.3);
+
+
+}
+.price-cut-pink
+{
+	font-family: 'Josefin Sans';
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+text-decoration-line: line-through;
+
+/* Accent */
+
+color: #FB2E86;
+
+
+}
+
+.bg-baby-pink{
+	background: #FFF6FB;
+}
+.color-primary{
+	color: #151875;
+}
+.color-pink{
+	font-family: 'Lato';
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+/* Accent */
+
+color: #FB2E86;
+}
+.color-pinkk{
+	color: #FB2E86;
+}
+.bg-pink{
+	background-color:#FB2E86;
+	border-style: none;
+	color: white; 
+}
+.blue-cut{
+	font-family: 'Josefin Sans';
+font-size: 12px;
+line-height: 14px;
+text-decoration-line: line-through;
+}
+.color-grey{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 30px;
+/* or 176% */
+
+letter-spacing: 0.02em;
+
+color: #B7BACB;
+}
+.color-white{
+	color:white;
+}
+.logo{
+	font-family: 'Josefin Sans';
+font-size: 38px;
+line-height: 45px;
+
+color: #000000;
+
+}
+
+.lato{
+	font-family: 'Josefin Sans';
+}
+.img-background{
+	background-image: url("images/Rectangle 102.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.color-golden{
+	color: #FFC416;
+}
+.color-greyy{
+	color: #B2B2B2;
+
+}
+
+.check-label{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+text-align: center;
+
+color: #7E81A2;
+}
