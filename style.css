@@ -1,3 +1,6 @@
+.body{
+	font-family: 'Josefin Sans';
+}
 .bg-grey{
 	background-color: #F1F0FF
 }
@@ -121,31 +124,15 @@ color: #151875;
 font-weight: 400;
 font-size: 14px;
 line-height: 17px;
-/* identical to box height */
-
-
-/* Text */
-
 color: #151875;
 
 }
-
-
-
-
-
-
 .latest-products-menu{
 	font-family: 'Lato';
 	text-decoration: none;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
-
-
-/* Text */
-
 color: #151875;
 }
 .latest-products-menu:hover{
@@ -335,4 +322,272 @@ line-height: 30px;
 text-align: center;
 
 color: #7E81A2;
+}
+
+
+.custom-checkbox-blue{
+ background: #E5E0FC;
+}
+
+.checked-pink{
+	background-color:  #FFDBF1;
+	border-color: #FF3EB2;
+}
+.checked-pink:checked{
+	color: white;
+	background: #FF3EB2;
+	box-shadow: none;
+	border-color: #FFDBF1;
+}
+.checked-pink:active{
+	box-shadow: none;
+	border-color: #FF3EB2;
+}
+.checked-pink:focus{
+	box-shadow: none;
+	border-color: #FF3EB2;
+}
+.check-blue{
+	background: #E5E0FC;
+	border-color: #603EFF;
+
+}
+.check-blue:checked{
+	color: white;
+	background: #603EFF;
+	box-shadow: none;
+	border-color: #FFDBF1;
+}
+.check-blue:active{
+	box-shadow: none;
+	border-color: #603EFF;
+}
+.check-blue:focus{
+	box-shadow: none;
+	border-color: #603EFF;
+}
+
+.check-yellow{
+	background: #FFF6DA;;
+	border-color: #FFCC2E;
+
+}
+.check-yellow:checked{
+	color: white;
+	background: #FFCC2E;;
+	box-shadow: none;
+	border-color: #FFF6DA;;
+}
+.check-yellow:active{
+	box-shadow: none;
+	border-color: #FFCC2E;;
+}
+.check-yellow:focus{
+	box-shadow: none;
+	border-color: #FFCC2E;
+}
+
+.btn-secondary{
+	border-style: none;
+	background-color: white;
+}
+.btn-secondary:hover{
+	border-style: none;
+	background-color: #151875;
+	color: white;
+}
+
+.md-hd{
+	font-family: 'Josefin Sans';
+font-size: 16px;
+color: #151875;
+
+}
+
+.color-black{
+	color: black;
+}
+
+.detail-point{
+	font-family: 'Josefin Sans';
+font-size: 1.1vw;
+color: #A9ACC6;
+margin-bottom: 2px;
+line-height: 1.5vw;
+}
+
+.sm-text{
+	font-size: 10px;
+}
+
+.cart-check-label{
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 25px;
+	color: #8A91AB;
+}
+.check-green-cart{
+	background: white;
+	border-color: #19D16F;
+
+}
+.check-green-cart:checked{
+	color: white;
+	background: #19D16F;
+	box-shadow: none;
+	border-color: #FFF6DA;
+}
+.check-green-cart:active{
+	box-shadow: none;
+	border-color: #19D16F;
+}
+.check-green-cart:focus{
+	box-shadow: none;
+	border-color: #19D16F;
+}
+.cart-green-button{
+	background: #19D16F;
+	color:white;
+	border-style: none;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 17px;
+}
+.cart-green-button:hover{
+	background-color:white; 
+	color:#19D16F;
+	border-style: solid;
+	border-color:#19D16F; 
+}
+.cart-pink-button{
+	background: #FB2E86;
+	color:white;
+	border-style: none;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 17px;
+}
+.cart-pink-button:hover{
+	background-color:white; 
+	color:#FB2E86;
+	border-style: solid;
+	border-color:#FB2E86; 
+}
+.cart-form{
+	font-family: 'Josefin Sans';
+	font-size: 14px;
+	line-height: 16px;
+	color: #C5CBE3;
+}
+.cart-form:focus{
+	border-style: none;
+	box-shadow: none;
+	background: #F4F4FC;
+}
+.cart-form:active{
+	border-style: none;
+	box-shadow: none;
+	background: #F4F4FC;
+
+}
+.cart-table-heading{
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #1D3178;
+}
+
+.cart-table{
+	font-family: 'Josefin Sans';
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.order-card{
+	font-family: 'Josefin Sans';
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.btn-cart-qty{
+	background: #E7E7EF;
+}
+.btn-cart-qty:hover{
+	background: #E7E7EF;
+}
+.btn-cart-qty:focus{
+	background: #E7E7EF;
+	border-style: none;
+}
+
+.cart-qty-input{
+	background: #F0EFF2;
+}
+.cart-qty-input:focus{
+	background: #F0EFF2;
+	box-shadow: none;
+	border-style: none;
+}
+.cart-qty-input:active{
+	background: #F0EFF2;
+	box-shadow: none;
+	border-style: none;
+}
+
+.small-link{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 55px;
+letter-spacing: 0.01em;
+
+color: #C1C8E1;
+}
+.grey-link{
+	color: #C1C8E1;
+}
+
+.grey-link:hover{
+	color: #C1C8E1;
+}
+
+.login-heading{
+	font-family: 'Josefin Sans';
+font-size: 32px;
+line-height: 38px;
+}
+
+.login-link{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+color: #9096B2;
+}
+.login-link:hover{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+color: #9096B2;
+}
+.login-form{
+	width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .login-form {
+    width: 100%;
+  }
 }
