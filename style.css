@@ -1,5 +1,6 @@
-.body{
-	font-family: 'Josefin Sans';
+body{
+	font-family: "Josefin Sans";
+	color: #3F509E;
 }
 .bg-grey{
 	background-color: #F1F0FF
@@ -13,7 +14,12 @@
 .search-bg{
 	background-color: #FB2E86;
 	color: white;
-	font-size: 22px;
+	font-size: 24px;
+}
+.search-bg:hover {
+    color: #FB2E86;
+    border-style: solid;
+    border-color: #FB2E86;
 }
 .hero{
 	background-color: #F2F0FF;
@@ -39,32 +45,8 @@ font-style: normal;
 font-size: 16px;
 line-height: 28px;
 }
-.off-tag{
-width: 109.56px;
-    height: 104px;
-    left: 347px;
-    top: 32px;
-align-content: center;
-opacity: 1;
-background-color: #00C1FE;
-border: 1px solid #00C1FE;
-border-radius: 1px 41px 46px 46px;
-    transform: rotate(45deg);
-}
-.off-tag-text{
-width: 109.56px;
-    height: 104px;
-    right: -30px;
-color: White;
-align-content: center;
-font-family: 'Josefin Sans';
-font-size: 35px;
-line-height: 44px;
-    transform: rotate(-45deg);
 
-}
 h1{
-	font-family: 'Josefin Sans';
 font-size: 12px;
 letter-spacing: 0.015em;
 color: #000000;
@@ -81,7 +63,6 @@ color: #000000;
 	background-color: white;
 }
 .feature-heading{
-	font-family: 'Josefin Sans';
 	font-size: 42px;
 	line-height: 49px;
 	color: #1A0B5B;
@@ -110,7 +91,6 @@ color: #000000;
 
 }
 .feature-card-body .code{
-	font-family: 'Josefin Sans';
 font-size: 14px;
 line-height: 16px;
 
@@ -146,7 +126,6 @@ color: #151875;
 	background-color: #F7F7F7;
 }
 .latest-card-body .name{
-	font-family: 'Josefin Sans';
 font-size: 16px;
 
 /* Text */
@@ -154,14 +133,12 @@ font-size: 16px;
 color: #151875;
 }
 .n-price{
-	font-family: 'Josefin Sans';
 font-size: 14px;
 line-height: 16px;
 
 color: #151875;
 }
 .p-price{
-	font-family: 'Josefin Sans';
 font-size: 14px;
 line-height: 14px;
 text-decoration-line: line-through;
@@ -176,7 +153,6 @@ color: #FB2448;
 	height: auto;
 }
 .shopex-heading{
-	font-family: 'Josefin Sans';
 	color: #151875;
 }
 .shopex-p{
@@ -214,7 +190,6 @@ color: #ACABC3;
 
 .price-cut-grey
 {
-	font-family: 'Josefin Sans';
 font-size: 12px;
 line-height: 14px;
 text-align: center;
@@ -226,7 +201,6 @@ color: rgba(21, 24, 117, 0.3);
 }
 .price-cut-pink
 {
-	font-family: 'Josefin Sans';
 font-size: 14px;
 line-height: 16px;
 text-align: center;
@@ -264,7 +238,6 @@ color: #FB2E86;
 	color: white; 
 }
 .blue-cut{
-	font-family: 'Josefin Sans';
 font-size: 12px;
 line-height: 14px;
 text-decoration-line: line-through;
@@ -285,7 +258,6 @@ color: #B7BACB;
 	color:white;
 }
 .logo{
-	font-family: 'Josefin Sans';
 font-size: 38px;
 line-height: 45px;
 
@@ -294,7 +266,7 @@ color: #000000;
 }
 
 .lato{
-	font-family: 'Josefin Sans';
+	font-family: 'lato';
 }
 .img-background{
 	background-image: url("images/Rectangle 102.png");
@@ -398,7 +370,6 @@ color: #7E81A2;
 }
 
 .md-hd{
-	font-family: 'Josefin Sans';
 font-size: 16px;
 color: #151875;
 
@@ -409,7 +380,6 @@ color: #151875;
 }
 
 .detail-point{
-	font-family: 'Josefin Sans';
 font-size: 1.1vw;
 color: #A9ACC6;
 margin-bottom: 2px;
@@ -450,7 +420,8 @@ line-height: 1.5vw;
 .cart-green-button{
 	background: #19D16F;
 	color:white;
-	border-style: none;
+	border-style: solid;
+	border-color:#19D16F;
 	font-family: 'Lato';
 	font-style: normal;
 	font-weight: 700;
@@ -466,9 +437,9 @@ line-height: 1.5vw;
 .cart-pink-button{
 	background: #FB2E86;
 	color:white;
-	border-style: none;
+	border-style:solid;
+	border-color:#FB2E86;
 	font-family: 'Lato';
-	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 17px;
@@ -480,7 +451,6 @@ line-height: 1.5vw;
 	border-color:#FB2E86; 
 }
 .cart-form{
-	font-family: 'Josefin Sans';
 	font-size: 14px;
 	line-height: 16px;
 	color: #C5CBE3;
@@ -497,7 +467,6 @@ line-height: 1.5vw;
 
 }
 .cart-table-heading{
-	font-family: 'Josefin Sans';
 	font-size: 20px;
 	line-height: 23px;
 
@@ -505,13 +474,11 @@ line-height: 1.5vw;
 }
 
 .cart-table{
-	font-family: 'Josefin Sans';
 	font-size: 14px;
 	line-height: 16px;
 }
 
 .order-card{
-	font-family: 'Josefin Sans';
 	font-size: 14px;
 	line-height: 16px;
 }
@@ -560,7 +527,6 @@ color: #C1C8E1;
 }
 
 .login-heading{
-	font-family: 'Josefin Sans';
 font-size: 32px;
 line-height: 38px;
 }
@@ -590,4 +556,79 @@ color: #9096B2;
   .login-form {
     width: 100%;
   }
+}
+
+
+.blog-side-bar form label.btn{
+	border-color: white;
+	color: #3F509E;
+	margin: 0.5rem 1rem 0.5rem 1rem; 
+}
+.blog-side-bar form label.btn:hover{
+	border-color: #F939BF;
+	color: #F939BF;
+}
+.blog-side-bar form .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+	border-color: white;
+	background: #F939BF;
+	color: white;
+}
+.blog-side-bar p{
+	font-size: 20px;
+}
+.blog-side-bar a{
+	font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #151875;
+margin: 1rem 3rem 1rem auto;
+}
+.blog-side-bar a:hover{
+	color: #FB2E86;
+}
+
+
+
+
+
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+	color:#60dfe5;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  
+  	background: #FF75B0;
+	height:4px;
+	width:30px;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #FB2E86;
+  height:4x;
+  width:50px;
+  margin-bottom:1px;
+}
+/* typography */
+#quote-carousel h1 {
+  text-align:center;
+  margin-bottom:-20px !important;
+}
+#quote-carousel p {
+  font-style:italic;
+  color: #8A8FB9;
+
 }
