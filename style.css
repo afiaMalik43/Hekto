@@ -632,3 +632,25 @@ margin: 1rem 3rem 1rem auto;
   color: #8A8FB9;
 
 }
+
+.contact-us p{
+	font-family: 'Lato';
+	font-size: 16px;
+	line-height: 26px;
+	color: #8A8FB9;
+}
+
+.circle {
+	display: inline-flex;
+	width:20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-left:5px;
+}
+.b-circle{
+	display: inline-flex;
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left:5px;
+}
